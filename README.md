@@ -1,2 +1,3 @@
 # Desafio-Oficina
-Criar um esquema conceitual para contexto de oficina
+
+Criar um esquema conceitual para contextualização de uma oficina
