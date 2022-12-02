@@ -4,10 +4,22 @@ Criar um esquema conceitual para contextualização de uma oficina baseado na na
 
 #Modelagem da Oficina
 
-###Ordem de serviço
+##Ordem de serviço
+ *Data
+ *Número da ordem
+ *Status da ordem
+ *Data para conclusão
 ##Cliente
-##Veículo
+ *Nome
+ *Endereço do cliente
 ##Equipe
+ *Avaliação
+ *Código
+ *Especialidade
+ *Nome
 ##Tabela de serviço
+ *Preço peça
+ *Preço mão de obra
 ##Software usado
+ *MySQL
 
