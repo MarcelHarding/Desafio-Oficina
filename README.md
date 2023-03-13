@@ -1,25 +1,52 @@
-Projeto de um banco de dados - ordem de serviço de uma Oficina
+# Projeto de um banco de dados - E-commerce
 
-Criar um esquema conceitual para contextualização de uma oficina baseado na narrativa fornecida pela plataforma
+Modelagem do projeto a partir do diagrama feito em aula com refinamentos básicos e criação de entidades de relacionamento com funções de agregação. Projeto para
+visualização de um E-commerce com toda cadeia produtiva do Cliente até o encaminhamento do produto final, atributos específicos com cardinalidades específicas.  
+Valores e nomes fictícios. 
+ 
 
-### Modelagem da Oficina
-
-## Ordem de serviço
- *Data
- *Número da ordem
- *Status da ordem
- *Data para conclusão
-## Cliente
- *Nome
- *Endereço do cliente
-## Equipe
- *Avaliação
- *Código
- *Especialidade
- *Nome
-## Tabela de serviço
- *Preço peça
- *Preço mão de obra
+# Modelagem do Banco
+## Cliente        
+    *idCliente
+    *Fname
+    *CPF
+    *Endereço
+    *Mname
+    *LName
+## Pedido
+    *idCliente
+    *Fname
+    *CPF
+    *Endereço
+    *Mname
+    *LName
+## Produto
+    *idProduto
+    *Categoria
+    *Descrição
+    *valor
+## Vendedor
+    *idVendedor
+    *Razão social
+    *Local
+    *Nome fantasia
+    *CNPJ
+    *CPF
+    *Contato
+## Estoque
+    *idEstoque
+    *Local
+    *Quantidade
+## Fornecedor
+    *idForncedor
+    *Razão Social
+    *CNPJ
+    *Contato
+## Entrega Produto
+    *idEntrega produto
+    *Status
+    *Código Rastreio
+    
 ## Software usado
- *MySQL
+    *MySQL
 
