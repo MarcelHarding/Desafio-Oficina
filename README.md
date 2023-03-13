@@ -48,5 +48,5 @@ Relação de N/Muitos, e syntax básica para mitigar os problemas demandados. Va
     *Código Rastreio
     
 ## Software usado
-    *MySQL
+    *MySQL WorkBench
 
